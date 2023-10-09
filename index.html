@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator walutowy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <script defer src="JS/scrpit.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+    <form class="js-form">
+      <fieldset class="form__fildset">
+        <legend class="form__legend">Kalkulator walutowy</legend>
+   <p>
+    <label>
+    <span class="form__labelText">Podaj kwotę w PLN*: </span>
+    <input class="js-money form__field" type="number" required step="0.01" autofocus></label></p>
+    <p>
+    <label>
+    <span class="form__labelText">Chce otrzymać: </span>
+    <select class="js-currency form__field">
+   <option value="EUR" selected>Euro</option>
+    <option value="GBP">Funt Brytyjski</option>
+    <option value="USD">Dolar Amerykański</option>
+    </select>
+    </label>Pole wymagane oznaczone *
+    </p>
+    <button class="js-submit form__button">Oblicz!</button>
+    <p class="result">Wynik:<strong class="js-result"></strong></p>
+      </fieldset>
+       </form>
+    </div>
+</body>
+
+</html>
