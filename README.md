@@ -9,7 +9,8 @@
  - BEM;
  - JavaScript.
  
-![alt text for screen readers](https://1drv.ms/i/s!Ak_UwGMEz97k00-sQ0GSh6kr7na9?e=xSkg8I)
+![alt text for screen readers](https://github.com/NikolaKalinowska/Currency-converter/assets/135009477/965e5c15-3237-4865-a1fd-74e789076cc7)
+)
 
 ## Demo
 [See the project](https://nikolakalinowska.github.io/Currency-converter/)https://nikolakalinowska.github.io/Currency-converter/)
